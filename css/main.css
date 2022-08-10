@@ -1,0 +1,72 @@
+body {
+  margin: 0 auto 0 auto;
+}
+
+.full-design {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-area {
+  display: flex;
+  justify-content: left;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: right;
+  margin-left: 300px;
+  width: 330px;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.vertical-line {
+  border-left: 3px solid black;
+  height: 570px;
+  position: absolute;
+  left: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.project-link {
+  color: purple;
+}
+
+.project-link:hover {
+  color: white;
+}
+
+.git-link {
+  font-size: 20px;
+  color: white;
+}
+.git-link:hover {
+  color: blue;
+}
+
+.project-button {
+  padding: 14px;
+  border-radius: 7px;
+  color: purple;
+  background-color: white;
+  border-style: none;
+}
+
+.project-button:hover {
+  cursor: pointer;
+  background-color: purple;
+}
+
+.profile-pic {
+  border-radius: 95.5px;
+  margin-right: -100px;
+  margin-left: 50px;
+}
